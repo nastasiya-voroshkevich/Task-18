@@ -1,0 +1,26 @@
+[{
+  "name": "Adelie",
+  "imageUrl": "https://www.penguinworld.com/types/adelie_files/adeliel-2.jpg",
+  "size": "5.4 kg (m), 4.7 kg (f)",
+  "favoriteFood": "krill"
+}, {
+  "name": "Fiordland",
+  "imageUrl": "https://www.penguinworld.com/types/fiordland_files/fiordlandl-2.jpg",
+  "size": "4.1 kg (m), 3.7 kg (f)",
+  "favoriteFood": "fish and squid"
+}, {
+  "name": "Galapagos",
+  "imageUrl": "https://www.penguinworld.com/types/galapagos_files/galapagosl-2.jpg",
+  "size": "2.1 kg (m), 1.7 kg (f)",
+  "favoriteFood": "small fish"
+}, {
+  "name": "Gentoo",
+  "imageUrl": "https://www.penguinworld.com/types/gentoo_files/gentool-2.jpg",
+  "size": "5.6 kg (m), 5.1 kg (f)",
+  "favoriteFood": "krill and squid"
+}, {
+  "name": "Humboldt",
+  "imageUrl": "https://www.penguinworld.com/types/humboldt_files/humboldt-2.jpg",
+  "size": "4.9 kg (m), 4.5 kg (f)",
+  "favoriteFood": "small fish"
+}]
