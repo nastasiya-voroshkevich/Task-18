@@ -1,3 +1,5 @@
+//don`t repeat your self
+// rewrite with a function to avoid repeating code
 const listOfPenguins = document.getElementById("listOfPenguins");
 let wrapp = document.createElement("div");
 let cont = document.createElement("div");
@@ -12,8 +14,9 @@ listOfPenguins.className = "list-of-penguins";
 
 fetch("data1.json")
   .then((results) => results.json())
-  .then((Date) => {
-    arr = Date;
+  .then((date) => {
+    let arr =[];
+    arr = date;
     for (let i = 0; i < arr.length; i++) {
       let div = document.createElement("div");
       div.className = "item";
@@ -89,8 +92,9 @@ listOfPenguins2.className = "list-of-penguins";
 
 fetch(`data2.json`)
   .then((results) => results.json())
-  .then((Date1) => {
-    arrSecond = Date1;
+  .then((date1) => {
+    let arrSecond =[];
+    arrSecond = date1;
     console.log(arrSecond);
 
     for (let i = 0; i < arrSecond.length; i++) {
